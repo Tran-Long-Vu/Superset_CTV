@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
+        "onnxruntime",
         "opset",
-        "torchvision"
+        "torchvision",
+        "unsqueeze"
     ]
 }
