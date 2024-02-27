@@ -58,7 +58,8 @@ torch_model.eval()
 x = torch.randn(batch_size, 1, 224, 224, requires_grad=True)
 torch_out = torch_model(x)
 
-# Export the model
+# Export the model 
+# Key function: export()
 torch.onnx.export(torch_model,               # model being run
                   x,                         # model input (or a tuple for multiple inputs)
                   "super_resolution.onnx",   # where to save the model (can be a file or file-like object)
