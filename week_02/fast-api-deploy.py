@@ -1,0 +1,5 @@
+# uvicorn deployment using fastAPI
+
+
+
+
