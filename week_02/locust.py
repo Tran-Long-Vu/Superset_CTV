@@ -1,10 +1,6 @@
 # locust testing http request example: 
 # when running locust, the following will be load tested: 
-#
-#
-#
 from locust import HttpUser, between, task
-
 # post request login task from user.
 class WebsiteUser(HttpUser):
     wait_time = between(5, 15)
