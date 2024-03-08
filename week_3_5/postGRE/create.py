@@ -3,7 +3,7 @@
 
 # Import
 
-# Credenials to connect
+# Credentials to connect
 
 # Session define
 
